@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root 'tickets#home'
+  get '/show', to: 'tickets#show'
+  get '/detail', to: 'tickets#detail'
+
 end
