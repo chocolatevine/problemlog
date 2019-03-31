@@ -1,6 +1,11 @@
 require 'test_helper'
 
 class TicketsControllerTest < ActionDispatch::IntegrationTest
+  test "should get controller" do
+    get tickets_controller_url
+    assert_response :success
+  end
+
   test "should get home" do
     get tickets_home_url
     assert_response :success
