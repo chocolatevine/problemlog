@@ -1,7 +1,5 @@
 class TicketsController < ApplicationController
-  def controller
-  end
-
+  
   def home
   end
 

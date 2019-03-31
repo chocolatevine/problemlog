@@ -15,19 +15,3 @@ one:
   deadline: 2019-03-24
   version: MyString
   delflag: 1
-
-two:
-  id: 1
-  ticket_no: MyString
-  ticket_name: MyString
-  ticket_content: MyString
-  ticket_holder: 1
-  changer: 1
-  charge_user: 1
-  charge_dept: 1
-  category: 1
-  status: 1
-  priority: 1
-  deadline: 2019-03-24
-  version: MyString
-  delflag: 1
